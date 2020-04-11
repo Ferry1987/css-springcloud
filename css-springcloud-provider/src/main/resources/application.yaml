@@ -1,0 +1,9 @@
+#服务器配置
+server:
+  port:
+    8111
+#swagger 配置
+swagger:
+  scan:
+    package:
+      com.css.provider.api

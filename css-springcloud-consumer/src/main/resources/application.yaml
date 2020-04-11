@@ -1,0 +1,16 @@
+#服务器配置
+server:
+  port:
+    8112
+#swagger 配置
+swagger:
+  scan:
+    package:
+      com.css.consumer.api
+#服务提供者环境信息
+css:
+  provider:
+    host:
+      127.0.0.1
+    port:
+      8111
